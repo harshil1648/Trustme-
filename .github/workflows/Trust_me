@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trust Me - Real Estate by Vipul Valji Gala</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+    }
+
+    header {
+        background: #1a1a1a;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 30px;
+        background: white;
+        margin: 20px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .property-card, .testimonial {
+        background: #fafafa;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-left: 5px solid #333;
+        border-radius: 5px;
+    }
+
+    .gallery img {
+        width: 32%;
+        margin: 1%;
+        border-radius: 8px;
+    }
+
+    /* Contact Form */
+    .vertical-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-width: 500px;
+    }
+
+    /* Floating Buttons */
+    .call-btn, .whatsapp-btn {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background: #28a745;
+        color: white;
+        padding: 15px 18px;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .call-btn {
+        bottom: 90px;
+        background: #007bff;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Trust Me – Real Estate Services</h1>
+    <p>By Vipul Valji Gala – Outright & Rental Deals Specialist</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#listings">Property Listings</a>
+    <a href="#updates">Daily Updates</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am <b>Vipul Valji Gala</b>, a trusted independent real estate agent based in Mumbai,
+        handling both <b>outright</b> and <b>rental</b> property deals.  
+        Location: Bldg-104, A-605, Tilaknagar, Chembur, Mumbai - 400089  
+        Contact: <b>+91 9920682030</b> / <b>9820747272</b>
+    </p>
+</section>
+
+<section id="listings">
+    <h2>Property Listings</h2>
+
+    <div class="property-card">
+        <h3>1 BHK – Chembur</h3>
+        <p>Fully renovated | Close to station | Good for families.</p>
+    </div>
+
+    <div class="property-card">
+        <h3>2 BHK – Tilaknagar</h3>
+        <p>Spacious, Vaastu-compliant, prime location.</p>
+    </div>
+
+    <div class="property-card">
+        <h3>Commercial Office – Ghatkopar</h3>
+        <p>Ideal for startups and agencies.</p>
+    </div>
+
+</section>
+
+<section id="updates">
+    <h2>Daily New Listings / Updates</h2>
+
+    <div class="property-card">
+        <p>⭐ New 1RK in Chembur East – Budget friendly.</p>
+    </div>
+
+    <div class="property-card">
+        <p>⭐ 2 BHK Semi-furnished available immediately.</p>
+    </div>
+
+</section>
+
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300" />
+        <img src="https://via.placeholder.com/300" />
+        <img src="https://via.placeholder.com/300" />
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Client Testimonials</h2>
+
+    <div class="testimonial">
+        "Vipul bhai helped us get a perfect home. Very genuine and transparent." – R. Shah
+    </div>
+
+    <div class="testimonial">
+        "Smooth process, honest guidance, great service!" – P. Mehta
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form class="vertical-form" action="https://submit-form.com/your-form-id">
+        <label for="first-name">First name</label>
+        <input id="first-name" name="first-name" type="text" />
+
+        <label for="last-name">Last name</label>
+        <input id="last-name" name="last-name" type="text" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" cols="15" rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Floating Call Button -->
+<a class="call-btn" href="tel:+919920682030">📞</a>
+
+<!-- Floating WhatsApp Button -->
+<a class="whatsapp-btn" href="https://wa.me/919920682030">💬</a>
+
+</body>
+</html>
